@@ -1,0 +1,110 @@
+<br/>
+<div class="container">
+  <mat-card id="title-card">
+    <mat-card-content id="title">
+      Softwares
+    </mat-card-content>
+  </mat-card>
+  <br/>
+  <mat-card>
+    <mat-card-content>
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              IDE
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div *ngFor="let software of softwares">
+            <p *ngIf="software.type == 'IDE'">{{software.name}}</p>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-card-content>
+  </mat-card>
+  <br />
+  <mat-card>
+    <mat-card-content>
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              DBMS
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div *ngFor="let software of softwares">
+            <p *ngIf="software.type == 'DBMS'">{{software.name}}</p>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-card-content>
+  </mat-card>
+  <br />
+  <mat-card>
+    <mat-card-content>
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              SQL Management
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div *ngFor="let software of softwares">
+            <p *ngIf="software.type == 'SQL'">{{software.name}}</p>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-card-content>
+  </mat-card>
+  <br />
+  <mat-card>
+    <mat-card-content>
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Http Server
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div *ngFor="let software of softwares">
+            <p *ngIf="software.type == 'HTTPSERVER'">{{software.name}}</p>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-card-content>
+  </mat-card>
+  <br />
+  <mat-card>
+    <mat-card-content>
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              API Test
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div *ngFor="let software of softwares">
+            <p *ngIf="software.type == 'APITEST'">{{software.name}}</p>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-card-content>
+  </mat-card>
+  <br />
+  <mat-card>
+    <mat-card-content>
+      <mat-accordion>
+        <mat-expansion-panel>
+          <mat-expansion-panel-header>
+            <mat-panel-title>
+              Other
+            </mat-panel-title>
+          </mat-expansion-panel-header>
+          <div *ngFor="let software of softwares">
+            <p *ngIf="software.type == 'OTHER'">{{software.name}}</p>
+          </div>
+        </mat-expansion-panel>
+      </mat-accordion>
+    </mat-card-content>
+  </mat-card>
+</div>

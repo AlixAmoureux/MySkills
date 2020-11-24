@@ -1,0 +1,12 @@
+<br />
+<div class="row">
+  <div class="col-md-5">
+    <app-language [languages]="languages" (languageChosen)="languageChosen($event)" [frameworkIdChosen]="frameworkIdChosen"></app-language>
+  </div>
+  <div class="col-md-2">
+    <mat-icon>compare_arrows</mat-icon>
+  </div>
+  <div class="col-md-5">
+    <app-framework [frameworks]="frameworks" (frameworkChosen)="frameworkChosen($event)" [languageIdChosen]="languageIdChosen"></app-framework>
+  </div>
+</div>

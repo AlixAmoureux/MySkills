@@ -1,0 +1,24 @@
+mat-card {
+  background-color: white;
+  padding: 10px 0 0 0;
+}
+
+mat-card-title {
+  text-align: center;
+  font-size: x-large;
+}
+
+mat-panel-title {
+  color: red;
+}
+
+#title {
+  text-align: center;  
+  font-size: 2em;
+}
+
+#title-card {
+  width: fit-content;
+  padding: 18px;
+  margin: 0 auto;
+}

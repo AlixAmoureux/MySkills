@@ -1,0 +1,13 @@
+button {
+  font-weight: bold;
+}
+
+mat-card {
+  background-color: white;
+  padding: 10px 0 0 0;
+}
+
+mat-card-title {
+  text-align: center;
+  font-size: x-large;
+}

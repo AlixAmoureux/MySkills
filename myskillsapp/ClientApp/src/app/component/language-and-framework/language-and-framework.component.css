@@ -1,0 +1,28 @@
+mat-icon {
+  font-size: 130px;
+  color: red;
+  height: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 900;
+  margin-left: 35px;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 766px) {
+  mat-icon {
+    margin-left: 240px;
+  }
+}
+
+@media only screen and (min-width: 766px) and (max-width: 1000px) {
+  mat-icon {
+    margin-left: 50px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  mat-icon {
+    margin-left: 69px;
+  }
+}

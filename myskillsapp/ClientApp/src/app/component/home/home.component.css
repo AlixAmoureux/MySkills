@@ -1,0 +1,21 @@
+mat-card {
+  background-color: white;
+}
+
+mat-card-title {
+  text-align: center;
+  font-size: x-large;
+}
+
+mat-icon {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+#warning-div {
+  display: flex;
+}
+
+#warning-message {
+  margin-top: 4px;
+}
