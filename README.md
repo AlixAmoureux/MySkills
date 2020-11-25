@@ -6,4 +6,4 @@ It has been created with
 - Docker  
 
 Result :
-https://git.heroku.com/myskills-aspnetcore-angular.git
+https://myskills-aspnetcore-angular.herokuapp.com/
