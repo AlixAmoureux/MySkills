@@ -2,7 +2,7 @@
 This web application shows my skills in IT development.  
 It has been created with  
 - ASP.NET Core 3.1 (NUnit + XUnit)  
-- Angular 11 (JUnit)     
+- Angular 11 (karma / Jasmine)     
 - Docker  
 
 Result :
