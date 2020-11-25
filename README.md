@@ -1,5 +1,9 @@
 ## Overview
 This web application shows my skills in IT development.  
 It has been created with  
-- ASP.NET Core 3.1  
-- Angular 11    
+- ASP.NET Core 3.1 (NUnit + XUnit)  
+- Angular 11 (JUnit)     
+- Docker  
+
+Result :
+https://safe-temple-74080.herokuapp.com/
