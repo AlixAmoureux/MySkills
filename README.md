@@ -6,4 +6,4 @@ It has been created with
 - Docker  
 
 Result :
-https://safe-temple-74080.herokuapp.com/
+https://git.heroku.com/myskills-aspnetcore-angular.git
